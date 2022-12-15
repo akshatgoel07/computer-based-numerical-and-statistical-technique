@@ -14,7 +14,7 @@ int main()
 
     while (f(x0) * f(x1) > 0 || x0 == x1)
     {
-        printf("Enter Valid Range: ");
+        printf("Enter Valid Range: "); 
         scanf("%lf,%lf", &x0, &x1);
     }
     printf("x0\t\tc\t\tx1\t\tf(c)");
